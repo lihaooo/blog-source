@@ -132,7 +132,7 @@ class Money {
 $jpy = new Currency();
 $jpy->id = 1;
 $jpy->name = 'JPY';
-$jpy->standard_unit = 1; // 1 standard_unit = 100 minimum_unit
+$jpy->standard_unit = 1; // 1 standard_unit = 1 minimum_unit
 $jpy->standard_unit_symbol = '円';
 
 // define USD
