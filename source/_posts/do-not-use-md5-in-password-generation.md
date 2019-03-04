@@ -109,8 +109,8 @@ performance: 1200GH/s
 10万回每秒
 ```
 
-- つまり、8ビットのmd5またはsha256パスワードはすべて40秒以内に解読される可能性があります、しかしBCRYPTは70年かかります
-- It means all 8-bit md5 or sha256 passwords will be cracked within 40 seconds. But BCRYPT takes 70 years.
+- つまり、8バイトのmd5またはsha256パスワードはすべて40秒以内に解読される可能性があります、しかしBCRYPTは70年かかります
+- It means all 8-byte md5 or sha256 passwords will be cracked within 40 seconds. But BCRYPT takes 70 years.
 
 ### Q2: md5アルゴリズムのハッシュ結果は繰り返される可能性があります
 The hash result of the md5 algorithm may be repeated.
