@@ -316,7 +316,7 @@ For the complex part, you can make a single line comment at the end.
 At here, I have to say that because JSON files do not allow comments, which makes the configuration such as package.json very unfriendly.
 
 ### TODO
-TODO comments are a very handy thing, IDE and git can capture them, but in the team project, please write your email in TODO. Someone can find you in the future when countless TODO is unclaimed ^^
+TODO comments are useful, IDE and git can capture them, but in the team project, please write your email in TODO. Someone can find you in the future when countless TODO is unclaimed ^^
 
 ```php
 # TODO [li@stageinc.jp] finish this article
