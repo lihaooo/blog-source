@@ -76,6 +76,6 @@ package-lock.json
 build/
 
 # ----------- project area -----------
-.deploy_git
-source
+.deploy_git/
+public/
 db.json
