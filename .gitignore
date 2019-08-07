@@ -49,6 +49,20 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+# OSX
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
 # JIRA plugin
 atlassian-ide-plugin.xml
 
@@ -71,9 +85,20 @@ fabric.properties
 node_modules/
 yarn.lock
 package-lock.json
+npm-debug.log
+yarn-error.log
 
-# React
-build/
+# fastline
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# react-native
+ios/Pods/
+ios/Podfile.lock
 
 # ----------- project area -----------
 .deploy_git/
